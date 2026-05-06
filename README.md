@@ -21,7 +21,7 @@ This analysis aims to accomplish the following core objectives:
 
 ## Dataset Description and Source
 * **Name:** Social Media User Behavior
-* **Source:** Open Data Portals / Kaggle
+* **Source:** Open Data Portals / Kaggle https://www.kaggle.com/datasets/hamnamunir/social-media-user-behavior-dataset/data
 * **Description:** This project utilizes the Social Media User Behavior dataset (2,000 observations, 34 features), selected for its rich intersection of continuous and categorical variables. It provides a robust, real-world foundation for predicting e-commerce conversions (`purchased_via_social_media`) while offering multidimensional data to explore digital wellbeing and platform engagement.
 
 ## Tools and Libraries Used
