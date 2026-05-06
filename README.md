@@ -16,9 +16,28 @@ This analysis aims to accomplish the following core objectives:
 ## Dataset Description and Source
 * **Name:** Social Media User Behavior
 * **Source:** Open Data Portals / Kaggle
-* **Description:** A robust, non-trivial dataset containing 2,000 unique user observations across 34 diverse features. It blends continuous numerical data (e.g., age, followers, daily usage hours) with categorical variables (e.g., primary platform, profession, sleep disruption) to provide a holistic view of the digital consumer. The target variable for classification is `purchased_via_social_media`.
+* **Description:** This project utilizes the Social Media User Behavior dataset (2,000 observations, 34 features), selected for its rich intersection of continuous and categorical variables. It provides a robust, real-world foundation for predicting e-commerce conversions (purchased_via_social_media) while offering multidimensional data to explore digital wellbeing and platform engagement.
+
+##Exploratory Data Analysis (EDA)
+Extensive EDA was conducted to map user demographics against digital habits. Visualizations, including a Correlation Heatmap, confirmed a lack of multicollinearity among numerical features. A Scatter Plot (Age vs. Daily Usage) revealed no strong linear relationship, while Bar and Box Plots demonstrated that high usage hours span across all professions and global regions. Count Plots further detailed a balanced distribution across primary platforms (e.g., TikTok, Instagram) and user purposes (e.g., Entertainment, Socializing). (See visualizations/ folder for plots).
 
 ##Visuals and Synopsis
+**See "visuals" folder for graphs**
+
+##Formulating Business Analytics Questions
+The predictive modeling workflow was guided by three stakeholder-centric questions:
+**Marketing Strategy**: What behaviors predict a user making a purchase via social media?
+**Product Design**: Can digital habits predict negative well-being outcomes like sleep disruption?
+**Platform Retention**: How do usage metrics influence the likelihood of a user experiencing digital burnout and taking breaks?
+
+##Predictive Modeling & Evaluation
+Two classification models were deployed to predict purchasing behavior: a baseline Logistic Regression and a hyperparameter-tuned Random Forest Classifier (optimized via GridSearchCV). Both models achieved an overall accuracy of ~74%. However, the Confusion Matrix visual for the tuned Random Forest highlights a critical challenge with class imbalance—while the model easily identified non-purchasers (True Negatives), it struggled to capture the minority class of actual purchasers without more high-intent sequential data.
+
+##Insights and Answers
+The analysis fundamentally shifts the recommended marketing strategy from demographic targeting to behavioral retargeting. As illustrated by the Feature Importance Bar Chart, a user's ad_click_rate, daily_usage_hours, and followers_count carry significantly more predictive weight than their age, gender, or preferred platform. For stakeholders, this confirms that how a user physically interacts with a platform is vastly more valuable for e-commerce conversion than their static demographic profile.
+
+##Ethics and Interpretability Reflection
+Deploying predictive algorithms on social media data carries inherent risks of predatory targeting. Because variables like mental health scores and sleep disruption are present in the dataset, strict data governance is required to ensure vulnerable users are not algorithmically exploited for e-commerce gain. Furthermore, relying on complex ensemble models like Random Forests necessitates using explainable AI tools (like the feature importance charts provided) to ensure the logic behind targeted campaigns remains transparent to business stakeholders and users alike.
 
 ## Tools and Libraries Used
 * **Language:** Python
