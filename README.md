@@ -21,7 +21,7 @@ This analysis aims to accomplish the following core objectives:
 ## Exploratory Data Analysis (EDA)
 Extensive EDA was conducted to map user demographics against digital habits. Visualizations, including a Correlation Heatmap, confirmed a lack of multicollinearity among numerical features. A Scatter Plot (Age vs. Daily Usage) revealed no strong linear relationship, while Bar and Box Plots demonstrated that high usage hours span across all professions and global regions. Count Plots further detailed a balanced distribution across primary platforms (e.g., TikTok, Instagram) and user purposes (e.g., Entertainment, Socializing). (See visualizations/ folder for plots).
 
-##Visuals and Synopsis
+## Visuals and Synopsis
 * **See "visuals" folder for graphs**
 
 ##Formulating Business Analytics Questions
