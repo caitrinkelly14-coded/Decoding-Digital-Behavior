@@ -4,7 +4,7 @@
 **Institution:** Sawyer Business School, Suffolk University  
 
 ## Quick Links
-* 📄 **[Read the Full Final Business Report (PDF) Here](./ISOM835_Final_Report_Kelly.pdf)**
+* 📄 **[Read the Full Final Business Report (PDF) Here](./05.04.26 - Caitie Kelly - Term Project.pdf)**
 * 💻 **[View the Interactive Google Colab Notebook Here](https://colab.research.google.com/drive/1P7u0sUMh_xmhFr-UESEMhx8JUTdtVQNd?usp=sharing)**
 
 ---
@@ -38,11 +38,11 @@ This analysis aims to accomplish the following core objectives:
 ### 1. Exploratory Data Analysis (EDA)
 Extensive EDA was conducted to map user demographics against digital habits. Visualizations, including a Correlation Heatmap, confirmed a lack of multicollinearity among numerical features. A Scatter Plot (Age vs. Daily Usage) revealed no strong linear relationship, while Bar and Box Plots demonstrated that high usage hours span across all professions and global regions. Count Plots further detailed a balanced distribution across primary platforms (e.g., TikTok, Instagram) and user purposes (e.g., Entertainment, Socializing). 
 
-**Age vs. Daily Social Media Usage** <img src="visualizations/age_vs_usage.png" width="800">
+**Age vs. Daily Social Media Usage** <img src="Visualizations/Age VS Daily Socia Media Graph.jpg" width="800">
 
-**Distribution of Daily Usage by Country** <img src="visualizations/country_vs_usage.png" width="800">
+**Distribution of Daily Usage by Country** <img src="Visualizations/Distrubution of Daily socia Media Usage.jpg" width="800">
 
-**Average Daily Usage by Profession** <img src="visualizations/profession_vs_usage.png" width="800">
+**Average Daily Usage by Profession** <img src="Visualizations/Profession.jpg" width="800">
 
 ### 2. Formulating Business Analytics Questions
 The predictive modeling workflow was guided by three stakeholder-centric questions:
