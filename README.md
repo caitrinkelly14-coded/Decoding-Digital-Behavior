@@ -4,7 +4,7 @@
 **Institution:** Sawyer Business School, Suffolk University  
 
 ## Quick Links
-* 📄 **[Read the Full Final Business Report (PDF) Here](./Term_Project.pdf.pdf)**
+* 📄 **[Read the Full Final Business Report (PDF) Here](./Term_Project.pdf)**
 * 💻 **[View the Interactive Google Colab Notebook Here](https://colab.research.google.com/drive/1P7u0sUMh_xmhFr-UESEMhx8JUTdtVQNd?usp=sharing)**
 
 ---
