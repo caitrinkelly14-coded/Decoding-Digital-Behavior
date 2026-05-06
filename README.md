@@ -4,7 +4,7 @@
 **Institution:** Sawyer Business School, Suffolk University  
 
 ## Quick Links
-* 📄 **[Read the Full Final Business Report (PDF) Here](./05.04.26 - Caitie Kelly - Term Project.pdf)**
+* 📄 **[Read the Full Final Business Report (PDF) Here](/05.04.26 - Caitie Kelly - Term Project.pdf)**
 * 💻 **[View the Interactive Google Colab Notebook Here](https://colab.research.google.com/drive/1P7u0sUMh_xmhFr-UESEMhx8JUTdtVQNd?usp=sharing)**
 
 ---
@@ -40,7 +40,7 @@ Extensive EDA was conducted to map user demographics against digital habits. Vis
 
 **Age vs. Daily Social Media Usage** <img src="Visualizations/Age VS Daily Socia Media Graph.jpg" width="800">
 
-**Distribution of Daily Usage by Country** <img src="Visualizations/Distrubution of Daily socia Media Usage.jpg" width="800">
+**Distribution of Daily Usage by Country** <img src="Visualizations/Distrubution of Daily socia Media usage.jpg" width="800">
 
 **Average Daily Usage by Profession** <img src="Visualizations/Profession.jpg" width="800">
 
