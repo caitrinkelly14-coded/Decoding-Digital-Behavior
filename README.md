@@ -4,7 +4,7 @@
 **Institution:** Sawyer Business School, Suffolk University  
 
 ## Quick Links
-* 📄 **[Read the Full Final Business Report (PDF) Here](/05.04.26 - Caitie Kelly - Term Project.pdf)**
+* 📄 **[Read the Full Final Business Report (PDF) Here](./05.04.26%20-%20Caitie%20Kelly%20-%20Term%20Project.pdf)**
 * 💻 **[View the Interactive Google Colab Notebook Here](https://colab.research.google.com/drive/1P7u0sUMh_xmhFr-UESEMhx8JUTdtVQNd?usp=sharing)**
 
 ---
