@@ -24,7 +24,7 @@ Extensive EDA was conducted to map user demographics against digital habits. Vis
 ## Visuals and Synopsis
 * **See "visuals" folder for graphs**
 
-##Formulating Business Analytics Questions
+## Formulating Business Analytics Questions
 The predictive modeling workflow was guided by three stakeholder-centric questions:
 **Marketing Strategy**: What behaviors predict a user making a purchase via social media?
 **Product Design**: Can digital habits predict negative well-being outcomes like sleep disruption?
